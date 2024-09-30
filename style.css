@@ -16,37 +16,60 @@ body {
 }
 
 
+/* Header Styling */
 header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Background for the header */
 }
 
+/* H1 Styling */
 header h1 {
+    background-color: #2c3e50; /* Dark blue background */
+    color: white; /* White text */
+    padding: 20px; /* Padding for spacing inside the box */
     font-family: "Georgia", serif;
     font-size: 2.5rem;
+    display: inline-block;
+    width: 200px; /* Set width to create the square */
+    height: 200px; /* Set height to create the square */
+    text-align: center; /* Align text to the center of the box */
+    line-height: 200px; /* Centers text vertically inside the square */
 }
 
+/* Navigation Styling */
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 10px;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+nav ul li {
+    position: relative;
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav ul li a {
+    color: #2c3e50; /* Dark blue font */
+    text-decoration: none;
+    padding: 10px;
 }
+
+nav ul li:not(:last-child)::after {
+    content: "|"; /* Vertical line between links */
+    position: absolute;
+    right: -15px;
+    color: #2c3e50; /* Color of the vertical line */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
 
 main {
