@@ -81,7 +81,7 @@ aside {
 
 /* Image inside the white box */
 .about-me-section img {
-    max-width: 150px;
+    max-width: 15px;
     flex-shrink: 0; 
 }
 
