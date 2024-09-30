@@ -57,3 +57,43 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.profile-section img {
+    max-width: 150px; 
+    border-radius: 50%; 
+}
+
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+aside ul li a:hover {
+    background-color: #555;
+}
+
+
+body {
+    background-image: url('bush.png'); 
+    background-size: cover;
+}
