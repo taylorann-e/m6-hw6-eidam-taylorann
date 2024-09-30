@@ -33,7 +33,7 @@ header h1 {
     font-family: "Georgia", serif;
     font-size: 2.5rem;
     display: inline-block;
-    width: 200px; /* Set width to create the square */
+    width: 400px; /* Set width to create the square */
     height: 200px; /* Set height to create the square */
     text-align: center; /* Align text to the center of the box */
     line-height: 200px; /* Centers text vertically inside the square */
@@ -51,6 +51,7 @@ nav ul {
 nav ul li {
     position: relative;
     font-size: 1.2rem;
+    font-family: "Georgia", serif;
 }
 
 nav ul li a {
