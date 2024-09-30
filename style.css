@@ -67,7 +67,7 @@ aside {
 }
 
 
-.profile-section {
+section {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -78,10 +78,10 @@ aside {
     margin-bottom: 20px;
 }
 
-.profile-section img {
+section img {
     max-width: 150px;
 }
-.profile-section p {
+section p {
     font-size: 1rem;
     line-height: 1.6;
 }
