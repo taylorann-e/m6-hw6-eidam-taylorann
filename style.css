@@ -1,11 +1,11 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General Body Styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -71,13 +71,20 @@ aside {
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
 }
 
 .profile-section img {
     max-width: 150px;
-    border-radius: 50%;
 }
-
+.profile-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
 
 h2 {
     font-size: 2rem;
