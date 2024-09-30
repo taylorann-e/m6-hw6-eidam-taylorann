@@ -97,3 +97,7 @@ body {
     background-image: url('bush.png'); 
     background-size: cover;
 }
+aside ul li a img {
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
